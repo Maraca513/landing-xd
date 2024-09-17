@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: url('img1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 2em;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#beneficios li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+#beneficios img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1em;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+#cta {
+    text-align: center;
+    background-color: #ffeaa7;
+    border-radius: 10px;
+}
+
+button {
+    padding: 1em 2em;
+    background-color: #e17055;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #d63031;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    margin-top: 2em;
+}
+div {
+    color: red;
+}
